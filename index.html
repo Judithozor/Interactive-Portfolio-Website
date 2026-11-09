@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Judith Ozor</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i id="progress-fill"></i></div>
+
+<header class="site-header" id="top">
+  <div class="bar-row">
+    <a class="brand" href="#hero" aria-label="Judith Ozor, back to top"><span class="brand-mark">JO</span>Judith Ozor</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch between light and dark theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="status rise"><span class="dot"></span>Open to freelance and internships</p>
+        <h1 class="rise d1">I design and build <span class="mark">friendly</span> websites.</h1>
+        <p class="lead rise d2">Hi, I'm Judith, a passionate front-end developer and UI designer. I turn rough ideas into responsive, accessible interfaces that load fast and feel incredible to use.</p>
+        <div class="cta-row rise d3">
+          <a class="btn btn-primary" href="#projects">See my work <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="stage rise d4" aria-hidden="true">
+        <div class="shape s-circle"></div>
+        <div class="shape s-square"></div>
+        <div class="shape s-ring"></div>
+        <div class="shape s-card"><b>Now building</b><span>A budgeting app UI in Figma + CSS Grid</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-label="Tools and technologies I work with">
+    <div class="track">
+      <span>HTML5</span><span>CSS Grid</span><span>Flexbox</span><span>JavaScript</span><span>Responsive design</span><span>Accessibility</span><span>Figma</span><span>Git &amp; GitHub</span>
+      <span aria-hidden="true">HTML5</span><span aria-hidden="true">CSS Grid</span><span aria-hidden="true">Flexbox</span><span aria-hidden="true">JavaScript</span><span aria-hidden="true">Responsive design</span><span aria-hidden="true">Accessibility</span><span aria-hidden="true">Figma</span><span aria-hidden="true">Git &amp; GitHub</span>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <p class="eyebrow">About</p>
+      <h2>Clean code, clear layouts, kind to every screen size.</h2>
+      <div class="about-grid">
+        <div class="portrait" role="img" aria-label="Placeholder portrait with the initials JO">
+          <b>JO</b>
+          <small>c:\Users\pc\Pictures\C.J Images\JC.jpg</small>
+        </div>
+        <div class="about-copy">
+          <p>I started with a simple question: why do some websites feel effortless while others seem hard to navigate? Since then I've been studying <strong>layout, typography and interaction</strong> and putting them to work in real projects.</p>
+          <p>I like starting on paper, moving to Figma, then building with plain HTML, CSS and JavaScript so I understand every line. I care about <strong>keyboard access, readable contrast and fast load times</strong> as much as the visual polish.</p>
+          <dl class="facts">
+            <div class="fact"><dt>Focus</dt><dd>Front-end &amp; UI design</dd></div>
+            <div class="fact"><dt>Learning</dt><dd>React and TypeScript</dd></div>
+            <div class="fact"><dt>Languages</dt><dd>English, Igbo</dd></div>
+            <div class="fact"><dt>Available</dt><dd>Part-time, remote</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2>What I work with every day.</h2>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Front-end <small>Build</small></h3>
+          <ul class="skill-list">
+            <li class="skill-row"><div class="label"><span>HTML &amp; CSS</span><span>90%</span></div><div class="meter" role="img" aria-label="HTML and CSS, 90 percent"><i style="--lvl:90"></i></div></li>
+            <li class="skill-row"><div class="label"><span>Flexbox &amp; Grid</span><span>85%</span></div><div class="meter" role="img" aria-label="Flexbox and Grid, 85 percent"><i style="--lvl:85"></i></div></li>
+            <li class="skill-row"><div class="label"><span>JavaScript</span><span>70%</span></div><div class="meter" role="img" aria-label="JavaScript, 70 percent"><i style="--lvl:70"></i></div></li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Design <small>Shape</small></h3>
+          <ul class="skill-list">
+            <li class="skill-row"><div class="label"><span>UI design</span><span>85%</span></div><div class="meter" role="img" aria-label="UI design, 85 percent"><i style="--lvl:85"></i></div></li>
+            <li class="skill-row"><div class="label"><span>Figma prototyping</span><span>80%</span></div><div class="meter" role="img" aria-label="Figma prototyping, 80 percent"><i style="--lvl:80"></i></div></li>
+            <li class="skill-row"><div class="label"><span>CSS animation</span><span>75%</span></div><div class="meter" role="img" aria-label="CSS animation, 75 percent"><i style="--lvl:75"></i></div></li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <h3>Workflow <small>Ship</small></h3>
+          <ul class="skill-list">
+            <li class="skill-row"><div class="label"><span>Git &amp; GitHub</span><span>75%</span></div><div class="meter" role="img" aria-label="Git and GitHub, 75 percent"><i style="--lvl:75"></i></div></li>
+            <li class="skill-row"><div class="label"><span>Accessibility</span><span>70%</span></div><div class="meter" role="img" aria-label="Accessibility, 70 percent"><i style="--lvl:70"></i></div></li>
+            <li class="skill-row"><div class="label"><span>Performance tuning</span><span>65%</span></div><div class="meter" role="img" aria-label="Performance tuning, 65 percent"><i style="--lvl:65"></i></div></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter="web" aria-pressed="false">Web</button>
+          <button class="chip" type="button" data-filter="design" aria-pressed="false">UI design</button>
+        </div>
+      </div>
+      <div class="projects" id="project-grid">
+        <article class="project" data-cat="web">
+          <div class="thumb art-1" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Market Day</h3>
+            <p>A marketplace site where local vendors list produce, with a filterable product grid and a mobile-first cart.</p>
+            <ul class="tags"><li>HTML</li><li>CSS Grid</li><li>JavaScript</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project" data-cat="web">
+          <div class="thumb art-2" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Weather Board</h3>
+            <p>A dashboard of city forecasts with animated icons, unit switching and a layout that reflows cleanly to phones.</p>
+            <ul class="tags"><li>JavaScript</li><li>REST API</li><li>Flexbox</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project" data-cat="design">
+          <div class="thumb art-3" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Pocket Budget</h3>
+            <p>Mobile finance screens covering onboarding, spending categories and a weekly summary, prototyped end to end.</p>
+            <ul class="tags"><li>Figma</li><li>Prototyping</li><li>UX</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project" data-cat="web">
+          <div class="thumb art-4" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Bloom Studio</h3>
+            <p>A one-page site for a florist with a gallery grid, smooth section navigation and a booking form.</p>
+            <ul class="tags"><li>HTML</li><li>CSS animation</li><li>Forms</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project" data-cat="design">
+          <div class="thumb art-5" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Learnly UI Kit</h3>
+            <p>A small design system of buttons, cards and form fields for a course platform, with light and dark themes.</p>
+            <ul class="tags"><li>Figma</li><li>Design system</li><li>Tokens</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+        <article class="project" data-cat="web">
+          <div class="thumb art-6" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Recipe Box</h3>
+            <p>Search recipes by ingredient, save favourites in the browser and read them comfortably on any screen.</p>
+            <ul class="tags"><li>JavaScript</li><li>localStorage</li><li>Responsive</li></ul>
+            <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="note">Sample projects. Swap the titles, descriptions and links for your own work.</p>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <p class="eyebrow">Achievements</p>
+      <h2>Milestones so far.</h2>
+      <ol class="timeline" style="margin-top:36px">
+        <li><span class="when">2026</span><div class="what"><h3>Finalist, campus web design challenge</h3><p>Presented a responsive site concept to a panel of lecturers and industry guests.</p></div></li>
+        <li><span class="when">2025</span><div class="what"><h3>Responsive Web Design certification</h3><p>Completed a full course covering semantic HTML, Flexbox, Grid and accessibility, plus five practice projects.</p></div></li>
+        <li><span class="when">2025</span><div class="what"><h3>First freelance client site</h3><p>Designed, built and launched a small business website from brief to handover.</p></div></li>
+        <li><span class="when">2024</span><div class="what"><h3>Wrote my first line of code</h3><p>Built a personal page, broke it many times, and fell in love with fixing it.</p></div></li>
+      </ol>
+      <p class="note">Placeholder milestones. Built an About-me webpage, Css grid design, Student form submission, Css flexbox animation, Javascript Flexbox,Student Record, and a mortgage repayment calculator.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's build something meaningful together.</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Have a project, an internship or just a question? Send a message and I'll reply within two working days.</p>
+          <ul class="contact-list">
+            <li><span class="k">Email</span><span class="v" id="email-text">ozorjudith20@gmail.com</span><button class="copy" type="button" id="copy-btn">Copy</button></li>
+            <li><span class="k">GitHub</span><span class="v">github.com/Judithozor</span></li>
+            <li><span class="k">LinkedIn</span><span class="v">linkedin.com/in/judith-ozor-3b85b9210</span></li>
+          </ul>
+        </div>
+        <form id="contact-form" novalidate>
+          <div class="row2">
+            <div class="field" id="f-name">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Judith Ozor" required>
+              <p class="err" id="name-err" aria-live="polite"></p>
+            </div>
+            <div class="field" id="f-email">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="judidev.com" required>
+              <p class="err" id="email-err" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="topic">My Portfolio</label>
+            <select id="topic" name="topic">
+              <option>A project</option>
+              <option>A job or internship</option>
+              <option>Collaboration</option>
+              <option>Just saying hi</option>
+            </select>
+          </div>
+          <div class="field" id="f-message">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" maxlength="600" placeholder="Tell me a little about what you have in mind." required></textarea>
+            <div class="count"><span id="count">0</span> / 600</div>
+            <p class="err" id="message-err" aria-live="polite"></p>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn-primary" type="submit" id="send-btn">Send message <span class="arrow" aria-hidden="true">→</span></button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="year">2026</span> Judith Ozor. Built with HTML, CSS and a little JavaScript.</span>
+      <a class="to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
